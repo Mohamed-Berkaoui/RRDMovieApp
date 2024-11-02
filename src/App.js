@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Navbar from "./Navbar";
+import AddFilm from "./pages/AddFilm";
+import FilmDetails from "./pages/FilmDetails";
+import Home from "./pages/Home";
+import { Routes, Route } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import UpdateMovie from "./pages/UpdateMovie";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ToastContainer />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/addfilm" element={<AddFilm />} />
+        <Route path="/film/:id" element={<FilmDetails/>} />
+        <Route path="/update/:id" element={<UpdateMovie/>} />
+
+      </Routes>
     </div>
   );
 }

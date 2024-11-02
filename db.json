@@ -1,0 +1,74 @@
+{
+  "movies": [
+    {
+      "title": "Inception 2",
+      "year": "2012",
+      "image": "https://picsum.photos/200/300",
+      "category": "Sci-Fi",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "The Shawshank Redemption",
+      "category": "Drama",
+      "year": 1994,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "3",
+      "title": "The Godfather",
+      "category": "Crime",
+      "year": 1972,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "4",
+      "title": "Pulp Fiction",
+      "category": "Crime",
+      "year": 1994,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "5",
+      "title": "The Dark Knight",
+      "category": "Action",
+      "year": 2008,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "title": "Forrest Gump",
+      "year": "1994",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfFsim7mJetzNBK672yN0qjry6QJot2drW_w&s",
+      "category": "Drama",
+      "id": "6"
+    },
+    {
+      "id": "7",
+      "title": "Fight Club",
+      "category": "Drama",
+      "year": 1999,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "8",
+      "title": "The Matrix",
+      "category": "Sci-Fi",
+      "year": 1999,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "9",
+      "title": "Interstellar",
+      "category": "Sci-Fi",
+      "year": 2014,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "10",
+      "title": "The Lord of the Rings: The Return of the King",
+      "category": "Fantasy",
+      "year": 2003,
+      "image": "https://picsum.photos/200/300"
+    }
+  ]
+}
